@@ -3,7 +3,7 @@ Section: misc
 Priority: extra
 Maintainer: Jérémy Bobbio <lunar@debian.org>
 Build-Depends: debhelper (>= 9), dh-autoreconf, dh-systemd
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://www.issihosts.com/haveged/
 Vcs-Git: git://git.debian.org/git/collab-maint/haveged.git
 Vcs-Browser: http://git.debian.org/?p=collab-maint/haveged.git
