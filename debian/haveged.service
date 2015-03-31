@@ -3,7 +3,9 @@ Description=Entropy daemon using the HAVEGE algorithm
 Documentation=man:haveged(8) http://www.issihosts.com/haveged/
 
 [Service]
-ExecStart=/usr/sbin/haveged --Foreground --verbose=1 --write=1024
+EnvironmentFile=-/etc/default/haveged
+ExecStart=/usr/sbin/haveged --Foreground $DAEMON_ARGS
+SuccessExitStatus=143
 
 [Install]
-WantedBy=default.target
+WantedBy=multi-user.target

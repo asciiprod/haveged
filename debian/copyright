@@ -58,7 +58,7 @@ License: other
 
 Files: nist/packtest.c
 Copyright: 1999 National Institute Of Standards & Technology
-License: other
+License: nist-other
  Permission to use, copy, and modify this software without
  fee is hereby granted, provided that this entire notice is
  included in all copies of any software which is or includes

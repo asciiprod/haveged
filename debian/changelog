@@ -1,3 +1,15 @@
+haveged (1.9.1-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Honor /etc/default/haveged when using systemd (Closes: #755519, #740349)
+  * Update debian/copyright to fix lintian warning about non-unique license
+    name
+  * Add SuccessExitStatus=143 to service file (Closes: #781585)
+  * Change systemd service file to install in multi-user.target instead of
+    default.target
+
+ --  <markus.schade@gmail.com>  Tue, 31 Mar 2015 12:16:34 +0200
+
 haveged (1.9.1-1) unstable; urgency=low
 
   * Imported Upstream version 1.9.1. (Closes: #739403)
